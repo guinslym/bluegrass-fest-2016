@@ -9,7 +9,7 @@ Steps:
     ✔ Festivals @done(2016-07-09 01:41) @project(Steps)
     ☐ content
     ✔ Images (logo) @done(2016-07-09 01:41) @project(Steps)
-  ☐ Template
+  ☐ Templateg
 
 Difficulty:
   ☐ didn't know how to add a template in the main app directory
@@ -21,6 +21,10 @@ Section:
     ☐ The RainBow
   ☐ Artists
     ☐ List of Artists
+    ☐ Video
+    ☐ Website
+    ☐ Soundcloud
+    ☐ Mp3
   ☐ Map
     ☐ Ottawa
   ☐ Contact Form
@@ -37,3 +41,6 @@ Optionnel:
 
 ReactJS:
   ☐ Extra
+
+Offer:
+  ☐ New Poster
