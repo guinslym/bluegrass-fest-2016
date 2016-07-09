@@ -1,7 +1,37 @@
+Motivation:
+  ☐ Quick
+  ☐ Work iteratively
+  ☐ It should be complete tonight
 Steps:
-  ☐ Create a base app
+  ✔ Create a base app @done(2016-07-09 01:40) @project(Steps)
   ☐ Information gathering (Festivals + content + images)
-
+    ✔ Festivals @done(2016-07-09 01:41) @project(Steps)
+    ☐ content
+    ✔ Images (logo) @done(2016-07-09 01:41) @project(Steps)
 
 Difficulty:
   ☐ didn't know how to add a template in the main app directory
+
+Section:
+  ☐ Header - Jumbotron
+  ☐ Background image
+  ☐ Black & Bluegrass Fest 2016
+    ☐ The RainBow
+  ☐ Artists
+    ☐ List of Artists
+  ☐ Map
+    ☐ Ottawa
+  ☐ Contact Form
+    ☐ Telephone + Name + Message
+    ☐ Sponsors
+  ☐ 404
+
+Optionnel:
+  ☐ Navbar
+  ☐ Video
+  ☐ About us
+  ☐ SoundCloud per artists
+  ☐ Download posters
+
+ReactJS:
+  ☐ Extra
