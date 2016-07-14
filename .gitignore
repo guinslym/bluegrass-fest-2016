@@ -31,3 +31,4 @@ templates.todo
 bluegrassfest/templates/
 totrash/
 website/templates/
+static/

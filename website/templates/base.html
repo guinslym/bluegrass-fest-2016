@@ -1,0 +1,125 @@
+{% load staticfiles %}
+{% block doctype %}<!DOCTYPE html>{% endblock %}
+{% load i18n %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Black and Bluegrass 2016</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.css" media="screen">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/assets/css/custom.min.css">
+    <link rel="shortcut icon" href="static/img/fav.ico">
+    <!--
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-uSbimwRPo7PKyTL6azsx1CcBce/X9Qg+wX1MAjNV1gAkSXYveZbZeMMyJghdsSol" crossorigin="anonymous">
+  -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="./bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="./bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<style media="screen">
+.cta-3 {
+    background: #353535 url("http://www.atomic-tattoo.com/images/bgTile.jpg") left top repeat;
+    color: #e8e8e8;
+    position: relative;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.navbar-default{
+  background-color: black;
+}
+.img-responsive, .img-center {
+  margin: 0 auto;
+}
+</style>
+</head>
+  <body id="home">
+
+{% include "navbar.html" %}
+{% include "jumbotron.html" %}
+{% include "artists.html" %}
+
+
+<!--
+ __    _  _______  __   __  _______  _______  ______
+|  |  | ||   _   ||  | |  ||  _    ||   _   ||    _ |
+|   |_| ||  |_|  ||  |_|  || |_|   ||  |_|  ||   | ||
+|       ||       ||       ||       ||       ||   |_||_
+|  _    ||       ||       ||  _   | |       ||    __  |
+| | |   ||   _   | |     | | |_|   ||   _   ||   |  | |
+|_|  |__||__| |__|  |___|  |_______||__| |__||___|  |_|
+-->
+<!--
+ __   __  _______  _______  ______   _______  ______
+|  | |  ||       ||   _   ||      | |       ||    _ |
+|  |_|  ||    ___||  |_|  ||  _    ||    ___||   | ||
+|       ||   |___ |       || | |   ||   |___ |   |_||_
+|       ||    ___||       || |_|   ||    ___||    __  |
+|   _   ||   |___ |   _   ||       ||   |___ |   |  | |
+|__| |__||_______||__| |__||______| |_______||___|  |_|
+-->
+<!--
+_______  ______    _______  ___   _______  _______  _______
+|   _   ||    _ |  |       ||   | |       ||       ||       |
+|  |_|  ||   | ||  |_     _||   | |  _____||_     _||  _____|
+|       ||   |_||_   |   |  |   | | |_____   |   |  | |_____
+|       ||    __  |  |   |  |   | |_____  |  |   |  |_____  |
+|   _   ||   |  | |  |   |  |   |  _____| |  |   |   _____| |
+|__| |__||___|  |_|  |___|  |___| |_______|  |___|  |_______|
+-->
+<!--
+ __  __          _____
+|  \/  |   /\   |  __ \
+| \  / |  /  \  | |__) |
+| |\/| | / /\ \ |  ___/
+| |  | |/ ____ \| |
+|_|  |_/_/    \_\_|
+
+-->
+{#% include "divider2.html" %#}
+{% include "map4.html" %}
+
+{% include "divider1.html" %}
+{% include "images.html" %}
+<!--
+ ____  ____  _      _____  ____  ____  _____    _____ ____  ____  _
+/   _\/  _ \/ \  /|/__ __\/  _ \/   _\/__ __\  /    //  _ \/  __\/ \__/|
+|  /  | / \|| |\ ||  / \  | / \||  /    / \    |  __\| / \||  \/|| |\/||
+|  \__| \_/|| | \||  | |  | |-|||  \__  | |    | |   | \_/||    /| |  ||
+\____/\____/\_/  \|  \_/  \_/ \|\____/  \_/    \_/   \____/\_/\_\\_/  \|
+-->
+<div w3-include-html="contact.html"></div>
+{% include "contact.html" %}
+{% include "divider3.html" %}
+<!--
+ ______          _
+|  ____|        | |
+| |__ ___   ___ | |_ ___ _ __
+|  __/ _ \ / _ \| __/ _ \ '__|
+| | | (_) | (_) | ||  __/ |
+|_|  \___/ \___/ \__\___|_|
+
+-->
+{% include "footer.html" %}
+
+<script type="text/javascript">
+{% include "custom.js" %}
+</script>
+  <script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1000
+    });
+  </script>
+</body>
+
+
+</html>

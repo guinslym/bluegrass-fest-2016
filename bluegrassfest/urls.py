@@ -12,3 +12,8 @@ urlpatterns = [
         ),
     """
 ]
+
+from django.conf import settings
+from django.conf.urls import static
+urlpatterns += \
+    static.static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
