@@ -1,0 +1,21 @@
+<style media="screen">
+
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.1.0/jquery.countdown.min.js"></script>
+<div class="cta-3">
+    <div class="container text-center">
+        <a href="#"
+            class="btn btn-border-white btn-lg wow bounceInDown animated"
+            data-wow-duration="100ms"
+            data-wow-delay="500ms"
+            style="visibility: visible; animation-duration: 700ms; animation-delay: 100ms; animation-name: bounceInLeft;">
+                    Countdown
+        </a>
+        <h3 id="getting-started"></h3>
+    </div>
+</div>
+<script type="text/javascript">
+  $('#getting-started').countdown('2016/08/06', function(event) {
+    $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+  });
+</script>

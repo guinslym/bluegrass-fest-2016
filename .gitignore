@@ -28,7 +28,4 @@ staticfiles_dev/
 htmlcov/
 applications/*/tests/
 templates.todo
-bluegrassfest/templates/
 totrash/
-website/templates/
-static/

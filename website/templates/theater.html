@@ -1,0 +1,39 @@
+<span id="hero" class="landing__header__hero"></span>
+<script src="http://lowmess.com/js/theater.min.js"></script>
+
+<script type="text/javascript">
+var theater = new TheaterJS();
+var time = function(min, max) {
+return Math.random() * (max - min) + min;
+}
+theater.describe("hero", 0.8, "#hero");
+theater
+.write("hero:beautiful.", time(1250, 3500))
+.write("hero:honest.", time(1250, 3500))
+.write("hero:clever.", time(1250, 3500))
+.write("hero:fun.", time(1250, 3500))
+.write("hero:ambitious.", time(1250, 3500))
+.write("hero:pretty.", time(1250, 3500))
+.write("hero:smart.", time(1250, 3500))
+.write("hero:terrific.", time(1250, 3500))
+.write("hero:delightful.", time(1250, 3500))
+.write("hero:charming.", time(1250, 3500))
+.write("hero:neat.", time(1250, 3500))
+.write("hero:friendly.", time(1250, 3500))
+.write("hero:brilliant.", time(1250, 3500))
+.write("hero:good.", time(1250, 3500))
+.write("hero:great.", time(1250, 3500))
+.write("hero:better.", time(1250, 3500))
+.write("hero:fantastic.", time(1250, 3500))
+.write("hero:nice.", time(1250, 3500))
+.write("hero:sincere.", time(1250, 3500))
+.write("hero:witty.", time(1250, 3500))
+.write("hero:amazing.", time(1250, 3500))
+.write("hero:incredible.", time(1250, 3500))
+.write("hero:stellar.", time(1250, 3500))
+.write("hero:awesome.", time(1250, 3500))
+.write("hero:excellent.", time(1250, 3500))
+.write("hero:cool.", time(1250, 3500))
+.write("hero:amusing.", time(1250, 3500))
+.write(function () { theater.play(true); });
+</script>
